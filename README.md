@@ -1,7 +1,7 @@
 #This is a tutorial created by Manojit (Jit) Nandi for Data Science for Social Good fellowship.
 
 ## installPackages.R 
-Installs the necessary R packages to run the examples in this tutorial. Installs pcalg, RGraphViz and SMPracticals
+Installs the necessary R packages to run the examples in this tutorial. Installs pcalg, RGraphViz and SMPracticals.
 
 ##pcExample.R
 Runs the PC algorithm on synthetic data where the true causal graph is known, and compares the estimated fit with the true results.
@@ -9,11 +9,11 @@ Runs the PC algorithm on synthetic data where the true causal graph is known, an
 ##fciExample.R
 Runs the FCI algorithm on synthetic data where the true causal graph is known, and compares the estimated fit with the true results
 
-##mathmarksExample.R
-Runs the PC algorithm on mathmarks dataset pertaining to student's scores on different mathematics exams.
+##twoChainsExample.R
+Runs the PC algorithm on the data in twoChains.txt. 
 
-##urineExample.R
-Runs the PC algorithm on a SMPracticals dataset pertaining to the formation of calcium in urine.
+##mathmarksExample.R
+Runs the PC algorithm on mathmarks dataset pertaining to student's scores on different mathematics exams. The Mathmarks dataset comes from the SMPracticals package.
 
 ##twoChains.txt
 Contains the results of simulating 100,000 instances from a DAG where TV influences BMI through two different chains.
